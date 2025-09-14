@@ -67,9 +67,48 @@ const users = [
     },
 ]
 
-console.log(tinderUser);  
-console.log(Object.keys(tinderUser)); //Returns array
-console.log(Object.values(tinderUser)); //Returns array
-console.log(Object.entries(tinderUser)); //Make every Key Value a Array(First will be Key and second is Value in every array)
+// console.log(tinderUser);  
+// console.log(Object.keys(tinderUser)); //Returns array
+// console.log(Object.values(tinderUser)); //Returns array
+// console.log(Object.entries(tinderUser)); //Make every Key Value a Array(First will be Key and second is Value in every array)
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // Check if it has that value available or not 
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // Check if it has that value available or not 
+
+
+
+
+
+//  Object de-structure
+const course = {
+    courseName : "JS in hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+const {courseInstructor : Instructor} = course
+
+console.log(Instructor);
+
+
+// De-Structure the Object
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company  = "hitesh")
+
+
+
+// How JSOn looks like
+
+//  {
+//     "name" : "hitesh",
+//     "coursename" : "JS in Hindi",
+//     "price" : "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
